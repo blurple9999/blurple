@@ -6,7 +6,6 @@
     <meta name="description" content="h">
     
     <link rel="icon" type="image/png" href="h.png">
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
     
     <style>
       body {
@@ -35,21 +34,5 @@
   </head>
   <body>
     <p>mods gay</p>
-
-    <script>
-      var myCanvas = document.createElement('canvas');
-      myCanvas.style.width = "100vw";
-      myCanvas.style.height = "100vh";
-      document.body.appendChild(myCanvas);
-
-      var myConfetti = confetti.create(myCanvas, {
-        resize: true,
-        useWorker: true
-      });
-      myConfetti({
-        particleCount: 200,
-        spread: 160
-      });
-    </script>
   </body>
 </html>
